@@ -8,7 +8,7 @@ public:
 	Nod_prioritate() : Nod_dublu(), prio() {}
 	Nod_prioritate(Nod* next, char* info, Nod* prev, int x) :Nod_dublu(next, info, prev), prio(x) {}
 	Nod_prioritate(Nod_prioritate& n) { *this = n; }
-	~Nod_prioritate() { prio = 0; }
+	virtual ~Nod_prioritate() { prio = 0; }
 	const int GetPrio() { return prio; }
 	void SetPrio(int x) { prio = x; }
 	friend ostream& operator <<(ostream&, const Nod_prioritate&);

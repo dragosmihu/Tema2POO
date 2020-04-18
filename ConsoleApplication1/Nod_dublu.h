@@ -9,7 +9,7 @@ public:
 	Nod_dublu() :Nod(), ante(nullptr) {}
 	Nod_dublu(Nod* next, char* info, Nod* x) :Nod(info, next), ante(x) {}
 	Nod_dublu(Nod_dublu& n) { *this = n; }
-	~Nod_dublu() { ante = nullptr; }
+	virtual ~Nod_dublu() { ante = nullptr; }
 	Nod* GetPrev() { return ante; }
 	void SetPrev(Nod* n) { ante = n; }
 	friend ostream& operator <<(ostream&, Nod_dublu&);

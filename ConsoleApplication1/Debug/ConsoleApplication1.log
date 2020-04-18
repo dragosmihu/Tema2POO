@@ -1,6 +1,11 @@
-﻿  ConsoleApplication1.cpp
+﻿  Coada_prioritati.cpp
+  ConsoleApplication1.cpp
 D:\Facultate\Anul 1\Sem 2\POO\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(42,15): warning C4101: 'i': unreferenced local variable
 D:\Facultate\Anul 1\Sem 2\POO\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(45,18): warning C4101: 'f': unreferenced local variable
 D:\Facultate\Anul 1\Sem 2\POO\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(48,19): warning C4101: 'd': unreferenced local variable
 D:\Facultate\Anul 1\Sem 2\POO\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(51,17): warning C4101: 'c': unreferenced local variable
+  Nod.cpp
+  Nod_dublu.cpp
+  Nod_prioritate.cpp
+  Generating Code...
   ConsoleApplication1.vcxproj -> D:\Facultate\Anul 1\Sem 2\POO\ConsoleApplication1\Debug\ConsoleApplication1.exe

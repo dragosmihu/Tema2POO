@@ -52,6 +52,5 @@ int main()
         cout << "Coada este goala" << '\n';
     }
     return 0;
-
 }
 

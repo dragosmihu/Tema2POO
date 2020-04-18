@@ -11,7 +11,7 @@ public:
 	Nod() : info(nullptr), next(nullptr) {}
 	Nod(char* x, Nod* y) : info(x), next(y) {}
 	Nod(Nod& n) : info(n.info), next(n.next) {}
-	~Nod() { info = nullptr; next = nullptr; }
+	virtual ~Nod() { info = nullptr; next = nullptr; }
     Nod* GetNext() { return next; }
 	char* GetInfo() { return info; }
 	void SetInfo(char* x) { info = x; }
